@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Pengguna extends Model
+class PenggunaMigration extends Model
 {
     protected $DBGroup              = 'koneksiku';
-    protected $table                = 'pengguna';
+    protected $table                = 'pengguna_12200870';
     protected $primaryKey           = 'id';
     protected $useAutoIncrement     = true;
     protected $returnType           = 'array';
